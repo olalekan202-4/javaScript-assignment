@@ -135,3 +135,13 @@ for (let i = 7; i >= 0; i--) {
 }
 
 // task 3
+const myName = {
+  name: "olalekan",
+  age: 12,
+  location: "Agege",
+  country: "Nigeria"
+}
+for (let key in myName) {
+  console.log(key + ": " + myName[key]);
+}
+  
